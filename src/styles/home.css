@@ -1,0 +1,91 @@
+.header__section{
+    backdrop-filter: blur(5px);
+    height: 100vh;
+ backdrop-filter: blur(5px);
+ background-image: url('https://res.cloudinary.com/dw3vqhvte/image/upload/v1720278173/Background_g3shwq.png');
+ background-position: center;
+ background-size: cover;
+
+   
+}
+
+.header__text__con{
+  
+
+    padding: 30px 70px;
+   
+    padding: 30px ;
+    
+ 
+}
+.header__text{
+    color: #FFF;
+    /* padding: 30px 70px; */
+  
+  
+ 
+
+
+
+font-family: Kufam;
+font-size: 65px;
+font-style: normal;
+font-weight: 700;
+align-items: flex-start;
+letter-spacing: -1.44px;
+}
+
+.btn{
+    color: var(--Gulf-Blue-950, #001A52);
+
+
+/* Text md Medium */
+font-family: Kufam;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+
+
+border-radius: 80px;
+background: #FCFDFF;
+backdrop-filter: blur(1.5px);
+display: flex;
+justify-content: center;
+padding: 5px 0;
+display: flex;
+padding: 16px 20px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+width: 300px;
+margin-top: 30px;
+}
+.header__mini__text{
+    display: flex;
+     width: 50%;
+    justify-content: right;
+  
+    transform: translateX(600px);
+    margin-top: -100px;
+
+   
+    /* padding: 20px 50px;  */
+    
+
+   
+    
+ 
+}
+.consultation__con{
+
+}
+.consultation__text{
+
+ 
+    width:60%;
+ 
+}
+.socials__icons{
+    
+}
+
