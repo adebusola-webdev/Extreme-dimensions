@@ -1,0 +1,78 @@
+.footer__section {
+  background-image: url("https://res.cloudinary.com/dw3vqhvte/image/upload/v1720286818/Footer_cffnwp.png");
+  background-position: center;
+  background-size: cover;
+  color: #fff;
+  padding: 20px 70px;
+}
+
+.footer__content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #0b5783;
+  padding-bottom: 60px;
+  margin-top: 30px;
+}
+
+.footer__logo img {
+  width: 28%;
+}
+
+.footer__links {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  gap: 32px;
+}
+
+.footer__links li {
+  display: inline;
+  margin: 0 10px;
+}
+
+.footer__links a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer__links a:hover {
+  text-decoration: underline;
+}
+
+.footer__social {
+  margin-top: 10px;
+}
+
+.footer__social a {
+  color: #fff;
+  margin: 0 10px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.footer__social a:hover {
+  color: #ddd;
+}
+
+.footer__section2 {
+  margin: 30px 0;
+}
+
+.footer__two {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__links2 li {
+  display: inline;
+  margin: 0 10px;
+}
+.logo__text {
+  width: 66%;
+  margin-top: 32px;
+}
+.footer__links2 li a {
+  color: #fff;
+  text-decoration: none;
+}

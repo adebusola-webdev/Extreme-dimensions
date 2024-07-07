@@ -3,6 +3,7 @@ import { Nav } from '../component/Nav'
 import { Link } from 'react-router-dom'
 
 import '../styles/home.css'
+import { Footer } from '../component/Footer'
 
 export const Home = () => {
     return (
