@@ -4,6 +4,6 @@ import { Header } from './Header'
 
 export const Layout = () => {
   return (
-    <div> hi</div>
+    <div> </div>
   )
 }
