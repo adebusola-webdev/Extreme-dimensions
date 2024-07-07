@@ -180,6 +180,64 @@
 
     color: var(--Gulf-Blue-950, #001A52);
 
+/* Text lg Bold */
+font-family: Kufam;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: 28px; /* 155.556% */
+    
+
 }
 
 .who__info__text {}
+
+.projects__con{
+    display: flex;
+background: url('https://res.cloudinary.com/dw3vqhvte/image/upload/v1720306426/image_sjarma.png');
+text-align: center;
+align-items: center;
+justify-content: space-around;
+/* gap: 80px; */
+
+
+
+
+
+
+
+align-self: stretch;
+}
+.project__info{
+border-right: 1px solid var(--pic-bg, #2E4A77); 
+
+display: flex;
+align-items: center;
+flex-direction: column;
+color: var(--Cod-Gray-50, #F6F6F6);
+text-align: center;
+
+padding: 0 55px;
+justify-content: center;
+
+/* Display xs Bold */
+font-family: Kufam;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+
+line-height: 32px; /* 133.333% */
+}
+.project__big_t{
+    margin-bottom: 30px;
+    margin-top: 100px;
+}
+.project__info p{
+    margin-bottom: 100px;
+    text-transform: uppercase;
+  
+   
+}
+.final{
+    border-right: none;
+}

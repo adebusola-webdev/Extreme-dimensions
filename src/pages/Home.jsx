@@ -67,6 +67,23 @@ export const Home = () => {
                     </div>
                  </div>
             </div>
+            <div className="projects__section">
+             <div className="projects__con">
+                <div className="project__info">
+                    <h1 className='project__big_t'>1995</h1>
+                    <p>Year of Establishment</p>
+                </div>
+                <div className="project__info">
+                    <h1 className='project__big_t'>190+</h1>
+                    <p>PROJECTS & COUNTING</p>
+                </div>
+                <div className="project__info final">
+                    <h1 className='project__big_t'>31</h1>
+                    <p>YEARS OF EXPERIENCE</p>
+                </div>
+
+             </div>
+            </div>
            
         </>
     )
