@@ -1,15 +1,11 @@
 .nav__container{
-  
     display: flex;
-
-
-padding: 30px 70px;
-justify-content: space-between;
-align-items: center;
-flex-shrink: 0;
-margin: 0 auto;
-font-family:'Kufam';
-
+    padding: 30px 70px;
+    justify-content: space-between;
+    align-items: center;
+    flex-shrink: 0;
+    margin: 0 auto;
+    font-family:'Kufam';
 
 }
 .nav__list{

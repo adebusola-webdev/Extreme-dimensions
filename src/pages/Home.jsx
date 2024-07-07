@@ -2,6 +2,7 @@ import React from 'react'
 import { Nav } from '../component/Nav'
 
 import '../styles/home.css'
+import { Footer } from '../component/Footer'
 
 export const Home = () => {
   return (
@@ -31,6 +32,8 @@ export const Home = () => {
                 </div>
             </div>
     </div>
+    <Footer/>
+
     </>
   )
 }
