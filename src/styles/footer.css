@@ -1,9 +1,13 @@
+:root {
+  --custom-padding: 20px 80px;
+}
 .footer__section {
   background-image: url("https://res.cloudinary.com/dw3vqhvte/image/upload/v1720286818/Footer_cffnwp.png");
   background-position: center;
   background-size: cover;
   color: #fff;
-  padding: 20px 70px;
+  /* padding: 20px 80px; */
+  font-family: 'Kufam';
 }
 
 .footer__content {
@@ -16,7 +20,7 @@
 }
 
 .footer__logo img {
-  width: 28%;
+  width:70px;
 }
 
 .footer__links {
@@ -26,10 +30,7 @@
   gap: 32px;
 }
 
-.footer__links li {
-  display: inline;
-  margin: 0 10px;
-}
+
 
 .footer__links a {
   color: #fff;
@@ -42,11 +43,13 @@
 
 .footer__social {
   margin-top: 10px;
+  display: flex;
+  gap: 10px;
 }
 
 .footer__social a {
   color: #fff;
-  margin: 0 10px;
+  /* margin: 0 10px; */
   text-decoration: none;
   font-size: 20px;
 }
@@ -64,15 +67,48 @@
   justify-content: space-between;
 }
 
-.footer__links2 li {
-  display: inline;
-  margin: 0 10px;
+.footer__links2 {
+  display: flex;
+  gap: 20px;
+  /* display: inline; */
+  /* margin: 0 10px; */
 }
 .logo__text {
-  width: 66%;
+  width: 75%;
+
+
   margin-top: 32px;
 }
 .footer__links2 li a {
   color: #fff;
   text-decoration: none;
+}
+
+@media (max-width: 900px) {
+  :root {
+    --custom-padding: 20px 40px;
+  }
+
+  section{
+    padding: var(--custom-padding);
+  }
+  .footer__content {
+  flex-direction: column;
+  align-items: flex-start;
+  }
+  .footer__links {
+   
+   flex-direction: column;
+   margin-bottom: 20px;
+   gap: 20px;
+   margin-top: 20px;
+  }
+  .footer__two {
+    flex-direction: column;
+
+  }
+  .footer__two p{
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
 }
