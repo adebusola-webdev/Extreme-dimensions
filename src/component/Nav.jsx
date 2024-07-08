@@ -16,11 +16,14 @@ export const Nav = () => {
         <Link to='/'><img src="https://res.cloudinary.com/dw3vqhvte/image/upload/v1720281552/logo_hblomh.png" alt="" /> </Link>
 
         <ul className={` ${isOpen ? "open" : ""}`}>
-          <li>
-            <NavLink to="mailto:badejoadebusola@gmail.com">About us</NavLink>
+        <li>
+            <NavLink to="/">Home</NavLink>
           </li>
           <li>
-            <NavLink to="https://drive.google.com/file/d/1S8pi1qOpzqobLnJ_9U27agjheZY5j7AK/view?usp=sharing">Service</NavLink>
+            <NavLink to="/about-us">About us</NavLink>
+          </li>
+          <li>
+            <NavLink to="/service">Service</NavLink>
           </li>
           <li>
             <NavLink to="https://github.com/adebusola-webdev">Portfolio</NavLink>

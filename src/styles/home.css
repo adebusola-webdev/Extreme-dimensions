@@ -1,9 +1,9 @@
 :root {
-  --custom-padding: 20px 80px;
+  --custom-padding: 20px 70px;
 }
 section {
   padding: var(--custom-padding);
-  margin-top: 100px;
+  /* margin-top: 30px; */
 }
 
 .header__section {
@@ -23,11 +23,8 @@ section {
 .header__text {
   color: #fff;
   padding: 20px px;
-
   margin-top: 100px;
-
   width: 80%;
-
   font-family: "Kufam";
   font-size: 65px;
   font-style: normal;
@@ -42,12 +39,10 @@ section {
 
 .btn {
   color: var(--Gulf-Blue-950, #001a52);
-
   font-family: Kufam;
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
-
   border-radius: 80px;
   background: #fcfdff;
   backdrop-filter: blur(1.5px);
@@ -59,7 +54,6 @@ section {
   justify-content: center;
   align-items: center;
   gap: 10px;
-
   margin-top: 50px;
 }
 
@@ -70,9 +64,7 @@ section {
 .header__mini__text {
   width: 55%;
   justify-content: space-around;
-
   transform: translateX(450px);
-  /* margin-top: -40px; */
   font-size: 19px;
   line-height: 30px;
   display: flex;
@@ -90,9 +82,7 @@ section {
   color: #fff;
 }
 
-.header__inner__con {
-  /* padding: 10px 60px; */
-}
+
 
 .video__con {
   width: 90%;
@@ -105,7 +95,6 @@ section {
 
 .who__head__text {
   color: var(--pic-bg, #2e4a77);
-
   /* Display lg Bold */
   font-family: Kufam;
   font-size: 48px;
@@ -114,7 +103,9 @@ section {
   line-height: 60px;
   /* 125% */
   letter-spacing: -0.96px;
+  
 }
+
 
 .who__more__info {
   display: flex;
@@ -133,21 +124,17 @@ section {
 .who_left_con {
   display: flex;
   width: 85%;
-
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-
   gap: 48px;
 }
 
 .who__text__con {
   padding: 80px 5px;
   padding-top: 170px;
-
   width: 100%;
   color: var(--Cod-Gray-950, #080808);
-
   font-family: Kufam;
   font-size: 18px;
   font-style: normal;
@@ -156,7 +143,6 @@ section {
 }
 
 .who__inner__con {
-  /* padding: 10px 70px; */
   width: 100%;
   margin: 0 auto;
 }
@@ -167,7 +153,6 @@ section {
 
 .who_link {
   color: var(--Gulf-Blue-950, #001a52);
-
   font-family: Kufam;
   font-size: 18px;
   font-style: normal;
@@ -186,28 +171,22 @@ section {
   text-align: center;
   align-items: center;
   justify-content: space-around;
-  /* gap: 80px; */
-
   align-self: stretch;
 }
 
 .project__info {
   border-right: 1px solid var(--pic-bg, #2e4a77);
-
   display: flex;
   align-items: center;
   flex-direction: column;
   color: var(--Cod-Gray-50, #f6f6f6);
   text-align: center;
-
   padding: 0 55px;
   justify-content: center;
-
   font-family: Kufam;
   font-size: 24px;
   font-style: normal;
   font-weight: 700;
-
   line-height: 32px;
 }
 
@@ -549,13 +528,13 @@ section {
   }
 
   .btn {
-    font-size: 10px;
+    font-size: 14px;
     padding: 5px 10px;
     margin-top: 15px;
   }
 
   .header__mini__text {
-    font-size: 12px;
+    font-size: 16px;
     line-height: 18px;
     margin-top: -10px;
   }
@@ -566,10 +545,10 @@ section {
   }
 
   .who__text__con {
-    padding: 30px 5px;
+    padding: 30px 16px;
     padding-top: 70px;
-    font-size: 12px;
-    line-height: 18px;
+    font-size: 16px;
+    line-height: 26px;
   }
 
   .our__service__heading {
@@ -602,9 +581,17 @@ section {
   }
 
   .engineering__text__con p {
-    font-size: 12px;
+    font-size: 18px;
     line-height: 18px;
-    margin-top: 10px;
+    margin-top: 20px;
+    color: var(--Cod-Gray-950, #080808);
+
+/* Text md Medium */
+font-family: Kufam;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 24px; /* 150% */
   }
 }
 
