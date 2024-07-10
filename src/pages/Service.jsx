@@ -1,10 +1,13 @@
 import React from "react";
 import { Nav } from "../component/Nav";
 import '../styles/service.css'
+import { useState } from 'react';
+import ModalCarousel from '../component/ModalCarousel';
 import { Footer } from "../component/Footer";
 
+
 export const Service = () => {
-  return (
+    return (
     <>
       <section className="about__header__section">
         <div className="about__inner__con">
@@ -197,7 +200,9 @@ export const Service = () => {
          
         </div>
       </section>
-
+    
+    
+   
       <Footer/>
     </>
   );

@@ -10,6 +10,7 @@ section {
 
   margin: 0;
 }
+
 .about__inner__con {
   background: url("https://res.cloudinary.com/dw3vqhvte/image/upload/v1720351309/About_Us_qb6znx.png");
   background-size: cover;
@@ -70,7 +71,6 @@ section {
 }
 .our__mission__text__con {
   width: 50%;
-
   padding: 0 50px;
 }
 .our__mission__text__con {
@@ -85,13 +85,16 @@ section {
   font-size: 30px;
   margin-bottom: 10px;
 }
+.engineering__section{
+  margin-bottom: 200px;
+}
+
 .img__header {
   color: var(--pic-bg, #2e4a77);
   margin-bottom: 40px;
-
   /* Display lg Bold */
   font-family: Kufam;
-  font-size: 40px;
+  font-size: 48px;
   font-style: normal;
   font-weight: 700;
   line-height: 60px; /* 125% */

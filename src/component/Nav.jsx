@@ -17,19 +17,19 @@ export const Nav = () => {
 
         <ul className={` ${isOpen ? "open" : ""}`}>
         <li>
-            <NavLink to="/">Home</NavLink>
+            <NavLink to="/" className='nav_link'>Home</NavLink>
           </li>
           <li>
-            <NavLink to="/about-us">About us</NavLink>
+            <NavLink to="/about-us" className='nav_link'>About us</NavLink>
           </li>
           <li>
-            <NavLink to="/service">Service</NavLink>
+            <NavLink to="/service" className='nav_link'>Service</NavLink>
           </li>
           <li>
-            <NavLink to="https://github.com/adebusola-webdev">Portfolio</NavLink>
+            <NavLink to="/porfolio" className='nav_link'>Portfolio</NavLink>
           </li>
           <li>
-            <NavLink to="https://github.com/adebusola-webdev">Contact us</NavLink>
+            <NavLink to="/contact" className='nav_link'>Contact us</NavLink>
           </li>
 
           <div className="dropdown">
