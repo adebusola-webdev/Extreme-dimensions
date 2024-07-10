@@ -4,7 +4,8 @@ import "../styles/footer.css";
 export const Footer = () => {
   return (
     <>
-      <div className="footer__section">
+      <section
+      className="footer__section">
         <div className="footer">
           <div className="footer__content">
             <div className="footer__logo">
@@ -83,7 +84,7 @@ export const Footer = () => {
             </ul>
           </div>
         </div>
-      </div>
+      </section>
     </>
   );
 };
